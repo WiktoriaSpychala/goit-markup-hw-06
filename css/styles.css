@@ -667,7 +667,7 @@ form {
 .newsletter-email {
     font-size: 16px;
     font-weight: 400;
-    padding: 15px 295px 15px 16px;
+    padding: 15px 160px 15px 16px;
     background-color:#2F303A;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -834,6 +834,8 @@ form {
 }
 
 .form-rules-text {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: 400;
     color: #757575;
@@ -842,7 +844,6 @@ form {
     margin-top: 10px;
     margin-bottom: 30px;
     height:24px;
-
 }
 
 .form-rules-text a {
@@ -851,6 +852,8 @@ form {
     color: #2196F3;
     font-size: 14px;
     font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .form-rules-text::before {
@@ -862,6 +865,7 @@ form {
     border-radius: 2px;
     margin-right: 8px;
 }
+
 
 .form-contact-rules:checked + .form-rules-text::before {
     background-color: #2196F3;
